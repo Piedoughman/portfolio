@@ -1,0 +1,438 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Julian's portofolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="assets/js/browser.min.js"></script>
+		<link rel="icon" type="image/png" href="icon.png" sizes="32x32">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Søylediagrammer</title>
+		<style>
+		  /* Container for diagrammet */
+		  .chart-container {
+			display: flex;
+			align-items: flex-end;
+			height: 300px;
+			width: 100%;
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #f4f4f4;
+			border-radius: 8px;
+		  }
+	  
+		    /* Søyle-stil */
+			.bar {
+      width: 8%;
+      margin: 0 1%;
+      border-radius: 4px 4px 0 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #000000;
+      font-size: 14px;
+      position: relative;
+    }
+	  
+		
+    /* Fargene for søylene */
+    .bar:nth-child(1) { height: 85%; background-color: #ff595e; } /* Python */
+    .bar:nth-child(2) { height: 70%; background-color: #ffca3a; } /* Photoshop */
+    .bar:nth-child(3) { height: 75%; background-color: #8ac926; } /* Illustrator */
+    .bar:nth-child(4) { height: 60%; background-color: #1982c4; } /* HTML */
+    .bar:nth-child(5) { height: 80%; background-color: #6a4c93; } /* Premiere Pro */
+    .bar:nth-child(6) { height: 65%; background-color: #ff924c; } /* Indesign */
+    .bar:nth-child(7) { height: 90%; background-color: #ffadad; } /* After Effects */
+    .bar:nth-child(8) { height: 50%; background-color: #9bf6ff; } /* Cybersecurity */
+    .bar:nth-child(9) { height: 55%; background-color: #ffd6a5; } /* Blender */
+    .bar:nth-child(10) { height: 45%; background-color: #bdb2ff; } /* CSS */
+
+    
+       /* Ferdighetsnavn plassert inne i søylene */
+	   .bar-label {
+      font-size: 10px;
+      color: #fff;
+      word-wrap: break-word;
+      max-width: 100%;  /* Sørger for at teksten brytes innenfor søylebredden */
+      line-height: 1.2;
+      margin-top: 5px;
+    }
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Portfolio</h1>
+								<p>Julian Lothe Ringen sin portfolio</a></p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">prosjekt</a></li>
+								<li><a href="#about">Om</a></li>
+								<li><a href="#contact">kontakt</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="icon.png" style="max-width:50%;max-height:50%; margin-left: auto; margin-right: auto;" alt="" /></span>
+								<p>Dette er min portofolio som jeg har laget selv, med hjelp av en ferdig layout. Dette har jeg laget på IM 1, med mål om å legge denne portofolioen ut på Github.</a></p>
+								<p>Denne nettsiden vil jeg oppdatere etterhvert som jeg har gjort flere proskjekter.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Prosjekter</h2>
+								<span class="snegl"><img src="images/Glisende 0,5.png" /></span>
+								<span class="bakgrunn"><img src="images/Artboard 1mdpi.png" style="max-width:50%;height:auto;"></span>
+								<span class="bicep"><img src="images/Bicep.png" style="max-width:50%;height:auto;" /></span>
+								<span class="salt"><img src="images/Salt.png" alt="" style="background-color: white;" /></span>
+								<p>Dette er prosjekter jeg har jobbet med:</p>
+								<p>Jeg var med å lage et plattformer spill med en snegle. Jeg laget alt av design, mens en annen kodet spillet i unity. vi fikk bare 6 uker på oss, så sluttproduktet ble ikke like bra som forventet, men fikk prøve meg mye i illustrator. Figurene er tegneseriefigur-aktig, som skulle være en del av stilen jeg brukte.  </p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">Om</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>Hei, jeg heter Julian!</p>
+								<p>Jeg går på IM vg1 på Haugaland videregående. Mine sterke punkter: nysjerrig, omtenksom, liker å lære nye ting og tålmodig. Mine svake punkter: distrè, rastløs og sjenert. </p>
+								<p>Elsker: gaming, trening, musikk, fotball og mat. Hater: mye støy, vonde lukter og søndager. </p>
+							
+
+								<div class="chart-container">
+									<div class="bar">85%<span>Python</span></div>
+									<div class="bar">70%<span>Photoshop</span></div>
+									<div class="bar">75%<span>Illustrator</span></div>
+									<div class="bar">60%<span>HTML</span></div>
+									<div class="bar">80%<span>Premiere Pro</span></div>
+									<div class="bar">65%<span>Indesign</span></div>
+									<div class="bar">90%<span>After Effects</span></div>
+									<div class="bar">50%<span>Cybersecurity</span></div>
+									<div class="bar">55%<span>Blender</span></div>
+									<div class="bar">45%<span>CSS</span></div>
+								  </div>
+
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Kontakt</h2>
+								<form method="post" action="https://api.web3forms.com/submit">
+									<form action="https://api.web3forms.com/submit" method="POST">
+
+										<!-- Replace with your Access Key -->
+										<input type="hidden" name="access_key" value="16764f17-6671-49ca-b164-8cb7a2c5bd4d">
+									
+										<!-- Form Inputs. Each input must have a name="" attribute -->
+										<input type="text" name="name" required>
+										<input type="email" name="email" required>
+										<textarea name="message" required></textarea>
+									
+										<!-- Honeypot Spam Protection -->
+										<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+									
+										<!-- Custom Confirmation / Success Page -->
+										
+									
+										<button type="submit">Submit Form</button>
+									</form>
+							</form>
+								<ul class="icons">
+									<li><a href="https://www.vg.no" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
